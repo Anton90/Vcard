@@ -1,3 +1,40 @@
-body {
-	
+.container {
+	width: 600px;
+	max-width: 600px;
+	border-radius: 25px;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+.Vcard {
+	display: table-cell;
+	text-align: center;
+	color: white;
+	background-color: purple;
+	height: 50px;
+	width: inherit;
+	vertical-align: middle;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	font-size: 28px;
+}
+
+.Textphoto {
+	background-color: lightgrey;
+	padding: 20px;
+}
+
+#Photo {
+	width: 100px;
+	float: right;
+}
+.Socials {
+	background-color: lightgrey;
+	padding: 20px;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+
+ul {
+	list-style: none;
 }
